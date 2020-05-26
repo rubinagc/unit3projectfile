@@ -1,0 +1,211 @@
+*{box-sizing: border-box;}
+
+body{
+    color:lightslategrey;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+ .main-heading{
+background: #111;
+color: #fff;
+width: 100%;
+Margin: 0;
+padding: 0.5em;
+}
+
+.heading 
+{
+text-align: center;
+
+}
+
+.signup{
+    color:rgb(48, 47, 47);
+    font-size: 1.25em;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.para{
+    margin-top: 5px;
+    font-size:0.9em;
+    margin-bottom: 2em;
+}
+
+.container, .container1 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.hrone {
+border: 2px #111 groove;
+border-radius: 2px;
+margin-bottom: 0;
+}
+
+.hrtwo {
+margin-top: 3px;
+border: 1px #111 groove;
+margin-bottom: 1.5em;
+}
+.hrthree {
+    border: 1px #111 groove;
+    margin-bottom: 1.5em;
+}
+
+
+fieldset {
+    border:none;
+    margin: 0;
+}
+
+.wrap, .wrap1, .wrap2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span{
+
+    color:rgb(48, 47, 47);
+    font-size: 1.25em;
+    font-weight: bolder; 
+}
+
+.first {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+ 
+label.text, label.news {
+    display: inline;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select 
+ {
+    background-color: rgb(240, 238, 238);
+    width: 100%;
+    border:none;
+    margin: 0;
+    padding: 1.25em;
+    border-radius: 3px;
+}
+
+
+input[placeholder="Required"]{
+    text-align: right;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+  select {
+    color: grey;
+  }
+
+  option {
+    color:rgb(180, 16, 16);
+  }
+
+input:focus {
+    outline-color:navy;
+}
+
+
+input[id="zipcode"] {
+    width: 50%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 8px 12px 0;
+}
+
+.othertopics {
+    margin-top: 12px;
+    color:lightslategrey;color:lightslategrey;
+    font-size: 1em;
+    font-weight: normal;
+    
+}
+
+#topics{
+margin-top: 0;
+margin-bottom: 0;
+padding: 20px;
+height: 100px;
+}
+
+input[type="submit"] {
+
+    border: 1px;
+    background-color: rgb(32, 181, 201);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 1em;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+}
+
+.container1 {
+    padding: 1em;
+    margin-bottom: 12em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+@media (min-width: 768px) {
+
+    
+body{
+    font-size: 1.10em;
+}
+
+    .container, .container1, .para {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .para {
+        margin-bottom: 2em;
+    }
+
+    .first{
+        flex-direction: row;
+    }
+
+    .first label
+    {
+        flex-basis: 9rem;
+        flex-grow:0;
+        flex-shrink: 0;
+        padding-top: 1rem;
+    }
+
+    #zipcode{
+        width: 30%;
+    }
+
+.container1 {
+    margin-bottom: 12em;
+    
+}
+
+}

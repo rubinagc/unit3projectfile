@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/styles.css">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link href="https://fonts.googleapis.com/css?family=sans-serif" rel="stylesheet">
+            <title>HTML Form</title>
+        </head>
+                    <body>
+                            
+                            <div class="heading">
+                            <h1 class="main-heading">The Code Review</h1>
+
+                            <h2 class="signup"> Signup for our newsletter</h2>
+                            <p class="para">Get the latest news on how your code is doing right in your inbox.</p>
+
+                        </div>
+
+                            <div class="container">
+                            
+                                <form action="index.html" method="post">
+
+                                    
+                                    <hr class="hrone"> 
+                                    <hr class="hrtwo">
+
+                                    
+
+                                    <fieldset class="wrap">
+                                        <Legend><span>Contact Information</span></Legend>
+
+                                        <div class="first">
+                                    <label for="name">Full Name</label><br>
+                                    <input type="text" id="name" placeholder="Required" name="user_name">
+                                </div>
+
+                                <div class="first">
+                                    <label  for="mail">Email Address </label> <br>
+                                    <input type="email" id="mail" placeholder="Required" name="user_email">
+                                </div>
+
+                                   <div class="first">
+                                    
+                                    <label  for="phonenumber">Phone Number</label> <br>
+                                    <input type="number" id="phonenumber" name="phone_number">
+                                </div>
+
+                                    <div class="first">
+                                    <label for="streetaddress">Street Address</label><br>
+                                    <input type="text" id="streetaddress" name="street_address">
+                                </div>
+
+                                    <div class="first">
+                                    <label for="city">City</label> <br>
+                                    <input type="text" id="city" name="_city">
+                                </div>
+
+                                    <div class="first">
+                                    <label for="state">State</label> <br>
+                                    <Select id="state" name="_state">
+                                    
+                                        <optgroup label="Choose State">
+                                            <option value="">Choose State</option>
+                                            <option value="Auckland">Auckland</option>
+                                            <option value="Christchurch">Christchurch</option>
+                                            <option value="Wellington">Wellington</option>
+                                            <option value="Queenstown">Queenstown</option>
+                                        </optgroup>
+                                    </Select>
+                                    </div>
+
+                                <div class="first">
+                                    <label  for="zipcode">Zip Code</label><br>
+                                    <input type="text" id="zipcode" name="zip_code">
+                                </div>
+                                </fieldset>
+                                   
+                                
+                               
+                                        <hr class="hrthree">
+
+                                        
+                                        <fieldset class="wrap1">
+                               
+                                            <Legend><span> Newsletter</span></Legend><br>  
+         
+                                        <p> Select the newsletters you would like to receive. </p> <br>
+
+                                        <input type="checkbox" id="HTMLnews" value="news" name="HTML_news">
+                                        <label class="news" for="HTMLnews">HTML News</label> <br>
+
+                                        <input type="checkbox" id="CSSnews" value="news" name="CSS_news">
+                                        <label class="news" for="CSSnews">CSS News</label> <br>
+
+                                        <input type="checkbox" id="Javascriptnews" value="news" name="Javascript_news">
+                                        <label  class="news" for="Javascriptnews">Javascript News</label> <br>
+
+                                    </fieldset>
+
+                                    <fieldset class="wrap2">
+
+                                        <legend>Newsletter format</legend> <br>
+
+                                        <input type="radio" id="HTML" value="HTML" name="Newsletter_format"> 
+                                        <label class="text" for="HTML">HTML</label> <br>
+
+                                        <input type="radio" id="Plaintext" value="HTML" name="Newsletter_format">
+                                        <label class="text" for="Plaintext">Plain Text</label> <br>  
+
+                                        <p>Other topics you'd like to hear about</p> <br>
+                                        <textarea id="topics" name= "other_topics"> </textarea> <br>
+
+                                    </fieldset>
+
+                                        <input type="submit" value="Sign Up">
+                                    
+
+                                
+                                    
+                                
+                                </form>
+
+                            </div>
+
+                        <footer>
+                            <div class="container1">
+                            Copyright The Code Review.
+                        </div>
+                        </footer>
+
+                    </body>
+    </html>
